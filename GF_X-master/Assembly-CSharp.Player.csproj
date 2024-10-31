@@ -59,10 +59,10 @@
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\ViewController\Gameplay\CameraController.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\7.PointPointPoint\Scripts\Event\OnEnemyKillEvent.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\ViewController\Gameplay\AttackPlayer.cs" />
-    <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\ShootingEditor2D.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\Utility\RectHelper.cs" />
-    <Compile Include="Assets\QFramework\Framework\Examples\1.QueryExample\QueryExampleController.cs" />
+    <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\ShootingEditor2D.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\Model\IPlayerModel.cs" />
+    <Compile Include="Assets\QFramework\Framework\Examples\1.QueryExample\QueryExampleController.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\3.EasyEvent\EasyEventExample.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\7.PointPointPoint\Scripts\System\IScoreSystem.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\0.CounterApp\Scripts\EditorCounterAppWindow.cs" />
@@ -108,8 +108,8 @@
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\System\GunSystem\IGunSystem.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\Command\ShootCommand.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\ViewController\Gameplay\Enemy.cs" />
-    <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\ViewController\UI\UIController.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\7.PointPointPoint\Scripts\Event\OnMissEvent.cs" />
+    <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\ViewController\UI\UIController.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\7.PointPointPoint\Scripts\Game\Enemy.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\Model\IGunConfigModel.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\14.UnRegisterWhenDisabled\UnRegisterWhenDisabledExample.cs" />
@@ -118,8 +118,8 @@
     <Compile Include="Assets\QFramework\Framework\Examples\7.PointPointPoint\Scripts\System\ICountDownSystem.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\7.PointPointPoint\Scripts\UI\GamePanel.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\7.PointPointPoint\Scripts\Command\StartGameCommand.cs" />
-    <Compile Include="Assets\QFramework\Framework\Examples\11.SnakeGame\Codes\View\GameStart.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\12.Coroutine&amp;Task&amp;ResultCommand\CommandWithResultExample.cs" />
+    <Compile Include="Assets\QFramework\Framework\Examples\11.SnakeGame\Codes\View\GameStart.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\7.PointPointPoint\Scripts\Command\KillEnemyCommand.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\10.ShootingEditor2D\Scripts\Query\MaxBulletCountQuery.cs" />
     <Compile Include="Assets\QFramework\Framework\Examples\11.SnakeGame\Codes\Class\Snake.cs" />
@@ -331,16 +331,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -771,6 +771,10 @@
       <Project>{71836c46-fd5b-c2b3-7ebc-25d8fac271af}</Project>
       <Name>Newtonsoft.Json.UnityConverters.Mathematics.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="QFramework.CoreKit.Player.csproj">
+      <Project>{531a09ce-5c98-d181-e0aa-8ab08fc392e4}</Project>
+      <Name>QFramework.CoreKit.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{49e39ff7-ec6c-3efc-c13d-b5dcfff9ef5e}</Project>
       <Name>UnityEngine.UI.Player</Name>
@@ -778,10 +782,6 @@
     <ProjectReference Include="DOTween.Extension.Player.csproj">
       <Project>{33915f0a-5faa-b4d6-05c5-4fa1bdc02fc2}</Project>
       <Name>DOTween.Extension.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="QFramework.CoreKit.Player.csproj">
-      <Project>{531a09ce-5c98-d181-e0aa-8ab08fc392e4}</Project>
-      <Name>QFramework.CoreKit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.Player.csproj">
       <Project>{fe46cdbd-9ea7-a6ce-d376-d4dfabde4622}</Project>

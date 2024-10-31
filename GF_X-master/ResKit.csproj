@@ -68,12 +68,12 @@
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\BZip2\BZip2Exception.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\HotFixDowload\HotFixScripts\EncryptConfig.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Zip\ZipEntry.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Tar\TarArchive.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\BZip2\BZip2Constants.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Tar\TarArchive.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\BZip2\BZip2InputStream.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Core\INameTransform.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Implements\LocalImageRes.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Checksum\Crc32.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Implements\LocalImageRes.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\GZip\GZipException.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\HotFixDowload\HotFixScripts\AES.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\HotFixDowload\HotFixScripts\ABMD5.cs" />
@@ -115,14 +115,14 @@
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\HotFixDowload\HotFixScripts\HotPatchManager.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Core\PathFilter.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Framework\ResLoader\IResLoaderExtensions.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Core\FileSystemScanner.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Implements\AssetBundleSupport\AssetBundleSettings.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Core\FileSystemScanner.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Zip\Compression\Inflater.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Framework\ResLoader\IResLoader.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterConstants.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\IZipFIleHelper.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\HotFixDowload\HotFixScripts\RSA.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\GZip\GzipOutputStream.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\HotFixDowload\HotFixScripts\RSA.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\IZipFIleHelper.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Zip\ZipFile.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Scripts\Utility\ICSharpCode.SharpZipLib\Zip\ZipConstants.cs" />
@@ -419,67 +419,67 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Json">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\System.Text.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IO.RecyclableMemoryStream">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encodings.Web">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\System.Text.Encodings.Web.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
     <Reference Include="dnlib">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.code-philosophy.hybridclr@64a6d26fa3\Plugins\dnlib.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.code-philosophy.hybridclr@64a6d26fa3\Plugins\dnlib.dll</HintPath>
     </Reference>
     <Reference Include="LZ4">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.code-philosophy.hybridclr@64a6d26fa3\Plugins\LZ4.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.code-philosophy.hybridclr@64a6d26fa3\Plugins\LZ4.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Tinify">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\Tinify.dll</HintPath>
-    </Reference>
-    <Reference Include="EPPlus.Interfaces">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.Interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="EPPlus.System.Drawing">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.System.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="SixLabors.ImageSharp">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\SixLabors.ImageSharp.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\Tinify.dll</HintPath>
     </Reference>
     <Reference Include="Markdig">
-      <HintPath>D:\music\GF_X-master\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\SixLabors.ImageSharp.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>

@@ -65,8 +65,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Lighting\ProbeVolume\ProbeVolumeAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Utilities\BitArray.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\XR\XRLayout.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Lighting\ProbeVolume\ProbeReferenceVolume.Debug.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Common\DynamicResolutionHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Lighting\ProbeVolume\ProbeReferenceVolume.Debug.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Common\CommonStructs.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Utilities\DelegateUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Utilities\TextureCurve.cs" />
@@ -165,10 +165,10 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Camera\CameraSwitcher.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Lighting\ProbeVolume\ProbeReferenceVolumeProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Textures\Texture2DAtlasDynamic.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerFoldout.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Utilities\ColorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerObjectPopupField.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Utilities\ColorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Debugging\DebugFrameTiming.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerFoldout.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Lighting\ProbeVolume\ProbeVolume.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerMessageBox.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\Runtime\XR\XRBuiltinShaderConstants.cs" />
@@ -423,16 +423,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
