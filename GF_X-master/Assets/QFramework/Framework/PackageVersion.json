@@ -1,0 +1,20 @@
+{
+    "Id": "",
+    "Version": "v1.0.152",
+    "Type": 0,
+    "AccessRight": 0,
+    "DownloadUrl": "",
+    "InstallPath": "Assets/QFramework/Framework/",
+    "IncludeFileOrFolders": [
+        "Assets/QFramework/Framework",
+        "Assets/QFramework/Toolkits"
+    ],
+    "DocUrl": "https://liangxiegame.com",
+    "Readme": {
+        "version": "v1.0.152",
+        "content": "ResKit：\n* 场景加载 API 兼容团结引擎\n* 增加 WebGL 平台下同步初始化报错提示",
+        "author": "liangxie",
+        "date": "2024 年 10 月 28 日 15:46",
+        "PackageId": ""
+    }
+}

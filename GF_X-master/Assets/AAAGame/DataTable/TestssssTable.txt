@@ -1,0 +1,5 @@
+﻿#	TestssssTable		i18n
+#	ID		EnumP
+#	int		string
+#		备注	多语言
+	1		你好
