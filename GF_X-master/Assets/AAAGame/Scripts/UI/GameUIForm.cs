@@ -17,10 +17,28 @@ public partial class GameUIForm : UIFormBase
     {
         base.OnOpen(userData);
         RefreshCoinsText();
+        GF.Event.Subscribe(UserDataChangedEventArgs.EventId, OnUserDataChanged);
+    }
+    protected override void OnClose(bool isShutdown, object userData)
+    {
+        GF.Event.Unsubscribe(UserDataChangedEventArgs.EventId, OnUserDataChanged);
+    }
+    private void OnUserDataChanged(object sender, GameEventArgs e)
+    {
+        var args = e as UserDataChangedEventArgs;
+        switch (args.Type)
+        {
+            case UserDataType.SCORE:
+                RefreshCoinsText();
+                break;
+            case UserDataType.GAME_LEVEL:
+
+                break;
+        }
     }
     private void RefreshCoinsText()
     {
         var playerDm = GF.DataModel.GetOrCreate<PlayerDataModel>();
-        coinNumText.text = playerDm.Coins.ToString();
+        coinNumText.text = playerDm.SCORE.ToString();
     }
 }

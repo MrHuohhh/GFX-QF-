@@ -64,6 +64,12 @@ public partial class MenuUIForm : UIFormBase
         }
     }
 
+    //刷新分数
+    private void RefreshScoreText()
+    {
+        var playerDm = GF.DataModel.GetOrCreate<PlayerDataModel>();
+        scoreText.text = UtilityBuiltin.Valuer.ToCoins(playerDm.SCORE);
+    }
 
     private void RefreshMoneyText()
     {

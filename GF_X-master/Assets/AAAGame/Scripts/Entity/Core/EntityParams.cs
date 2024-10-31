@@ -1,4 +1,4 @@
-#pragma warning disable IDE1006 // 命名样式
+#pragma warning disable IDE1006 // ???????
 using GameFramework;
 using UnityEngine;
 using UnityGameFramework.Runtime;
@@ -14,26 +14,26 @@ public class EntityParams : RefParams
     public int gameObjectLayer { get; set; } = -1;
 
     /// <summary>
-    /// 绑定到父实体
+    /// ????????
     /// </summary>
     public Entity AttchToEntity { get; set; } = null;
     /// <summary>
-    /// 指定绑定到父实体下的哪个节点
+    /// ????????????????????
     /// </summary>
     public Transform ParentTransform { get; set; } = null;
 
     /// <summary>
-    /// 实体显示时回调
+    /// ??????????
     /// </summary>
     public GameFrameworkAction<EntityLogic> OnShowCallback { get; set; } = null;
 
     /// <summary>
-    /// 实体隐藏时回调
+    /// ???????????
     /// </summary>
     public GameFrameworkAction<EntityLogic> OnHideCallback { get; set; } = null;
 
     /// <summary>
-    /// 创建一个实例(必须使用该接口创建)
+    /// ??????????(?????????????)
     /// </summary>
     /// <param name="position"></param>
     /// <param name="eulerAngles"></param>
@@ -63,4 +63,4 @@ public class EntityParams : RefParams
         OnHideCallback = null;
     }
 }
-#pragma warning restore IDE1006 // 命名样式
+#pragma warning restore IDE1006 // ???????

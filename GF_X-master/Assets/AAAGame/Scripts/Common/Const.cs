@@ -22,5 +22,7 @@ public static partial class Const
         internal static readonly string CAR_SKIN_ID = "UserData.CAR_SKIN_ID";
 
         internal static readonly string USER_SPAWN_POINT_TYPE = "UserData.USER_SPAWN_POINT_TYPE";
+        
+        internal static readonly string SCORE = "UserData.SCORE";
     }
 }

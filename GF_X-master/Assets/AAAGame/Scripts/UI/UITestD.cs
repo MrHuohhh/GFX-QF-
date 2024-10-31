@@ -27,6 +27,14 @@ public partial class UITestD : UIFormBase
                 .Callback(() => Log.Error(">>>>>>>>>>>>>>3"))
                 .Start(this);
             Log.Error(">>>>>>>>>>>>>>Hello World");
+            
+            
+            GF.DataModel.GetOrCreate<PlayerDataModel>().GAME_LEVEL = 5;
+            var menuProcedure = GF.Procedure.CurrentProcedure as MenuProcedure;
+            if (null != menuProcedure)
+            {
+                menuProcedure.ShowLevel();
+            }
         }
     }
 }

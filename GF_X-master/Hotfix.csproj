@@ -81,6 +81,7 @@
     <Compile Include="Assets\AAAGame\Scripts\Extension\AwaitExtension\WebRequestResult.cs" />
     <Compile Include="Assets\AAAGame\Scripts\DataTable\TestssssTable.cs" />
     <Compile Include="Assets\AAAGame\Scripts\HotfixEntry.cs" />
+    <Compile Include="Assets\AAAGame\Scripts\Entity\GoldEntity.cs" />
     <Compile Include="Assets\AAAGame\Scripts\DataTable\Core\LanguagesTable.cs" />
     <Compile Include="Assets\AAAGame\Scripts\EventArgs\UserDataChangedEventArgs.cs" />
     <Compile Include="Assets\AAAGame\Scripts\Common\Const.cs" />

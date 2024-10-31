@@ -9,7 +9,8 @@ public enum UserDataType
     GAME_LEVEL,
     AD2MONEY_LV,
     FOLLOWER_NUM_CHANGED,
-    Removed_ADS
+    Removed_ADS,
+    SCORE,
 }
 public class UserDataChangedEventArgs : GameEventArgs
 {

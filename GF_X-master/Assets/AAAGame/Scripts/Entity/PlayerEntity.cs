@@ -1,3 +1,5 @@
+using System;
+using QFramework;
 using UnityEngine;
 
 public class PlayerEntity : SampleEntity
@@ -76,5 +78,14 @@ public class PlayerEntity : SampleEntity
         }
         playerVelocity.y += Physics.gravity.y * Time.deltaTime;
         characterCtrl.Move(playerVelocity * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name.StartsWith("Gold"))
+        {
+            other.Hide();
+            GF.DataModel.GetOrCreate<PlayerDataModel>().SCORE += 1;
+        }
     }
 }

@@ -21,7 +21,7 @@ public class PlayerDataModel : DataModelBase
         }
     }
     /// <summary>
-    /// 关卡
+    /// ???
     /// </summary>
     public int GAME_LEVEL
     {
@@ -34,6 +34,22 @@ public class PlayerDataModel : DataModelBase
             int nextLvId = Const.RepeatLevel ? value : Mathf.Clamp(value, lvTb.MinIdDataRow.Id, lvTb.MaxIdDataRow.Id);
             GF.Setting.SetInt(Const.UserData.GAME_LEVEL, nextLvId);
             FireUserDataChanged(UserDataType.GAME_LEVEL, preLvId, nextLvId);
+        }
+    }
+    
+    //????
+    public int SCORE
+    {
+            get
+        {
+            return GF.Setting.GetInt(Const.UserData.SCORE, 0);
+        }
+            set
+        {
+            int oldNum = SCORE;
+            int fixedNum = Mathf.Max(0, value);
+            GF.Setting.SetInt(Const.UserData.SCORE, fixedNum);
+            FireUserDataChanged(UserDataType.SCORE, oldNum, fixedNum);
         }
     }
 
@@ -105,7 +121,7 @@ public class PlayerDataModel : DataModelBase
         GF.UI.OpenUIForm(UIViews.RatingDialog);
     }
     /// <summary>
-    /// 触发用户数据改变事件
+    /// ????????????????
     /// </summary>
     /// <param name="tp"></param>
     /// <param name="udt"></param>

@@ -2,6 +2,7 @@ using Cysharp.Threading.Tasks;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using QFramework;
 using UnityEngine;
 
 public class BulletEntity : EntityBase
@@ -27,5 +28,13 @@ public class BulletEntity : EntityBase
     private void LifeTimeOver()
     {
         GF.Entity.HideEntity(this.Entity);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name.StartsWith("Gold"))
+        {
+            other.Hide();
+            GF.DataModel.GetOrCreate<PlayerDataModel>().SCORE += 1;
+        }
     }
 }

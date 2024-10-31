@@ -10,17 +10,27 @@ public class LevelEntity : EntityBase
     public const string P_LevelReadyCallback = "OnLevelReady";
     public bool IsAllReady { get; private set; }
     private Transform playerSpawnPoint;
+    private Transform PlayerGoldPoint;
     List<int> loadEntityTaskList;
     int mPlayerId;
-    public int PlayerId { get => mPlayerId; }
+    int mGoldId;
+
+    public int PlayerId
+    {
+        get => mPlayerId;
+    }
+
     List<int> enemyList;
+
     protected override void OnInit(object userData)
     {
         base.OnInit(userData);
         loadEntityTaskList = new List<int>();
         enemyList = new List<int>();
         playerSpawnPoint = transform.Find("PlayerSpawnPoint");
+        PlayerGoldPoint = transform.Find("PlayerGoldPoint");
     }
+
     protected override void OnShow(object userData)
     {
         base.OnShow(userData);
@@ -30,6 +40,7 @@ public class LevelEntity : EntityBase
         enemyList?.Clear();
         SpawnAllEntity();
     }
+
     protected override void OnHide(bool isShutdown, object userData)
     {
         GF.Event.Unsubscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
@@ -40,16 +51,33 @@ public class LevelEntity : EntityBase
 
     private void SpawnAllEntity()
     {
-        var playerParams = EntityParams.Create(playerSpawnPoint.position, playerSpawnPoint.eulerAngles, playerSpawnPoint.localScale);
+        var playerParams = EntityParams.Create(playerSpawnPoint.position, playerSpawnPoint.eulerAngles,
+            playerSpawnPoint.localScale);
 
-        mPlayerId = GF.Entity.ShowEntity<PlayerEntity>("MyPlayer", Const.EntityGroup.Player, playerParams);
+        mPlayerId = GF.Entity.ShowEntity<PlayerEntity>("MyPlayerTest", Const.EntityGroup.Player, playerParams);
         loadEntityTaskList.Add(mPlayerId);
+
+        //for循环
+        for (int i = 0; i < 10; i++)
+        {
+            // 周围随机值 PlayerGoldPoint.position
+// 周围随机值 PlayerGoldPoint.position
+            var random = PlayerGoldPoint.position +
+                         new Vector3(UnityEngine.Random.Range(-5, 5), 0, UnityEngine.Random.Range(-5, 5));
+            var playerParams2 = EntityParams.Create(random, PlayerGoldPoint.eulerAngles, PlayerGoldPoint.localScale);
+            var mGoldId2 = GF.Entity.ShowEntity<GoldEntity>("Gold", Const.EntityGroup.Item, playerParams2);
+            loadEntityTaskList.Add(mGoldId2);
+        }
     }
+
     public void StartGame()
     {
         var player = GF.Entity.GetEntity<PlayerEntity>(mPlayerId);
         player.Ctrlable = true;
+
+        var gold = GF.Entity.GetEntity<GoldEntity>(mGoldId);
     }
+
     private void OnShowEntitySuccess(object sender, GameEventArgs e)
     {
         var eArgs = e as ShowEntitySuccessEventArgs;
@@ -61,6 +89,7 @@ public class LevelEntity : EntityBase
             {
                 CameraFollower.Instance.SetFollowTarget(eArgs.Entity.transform);
             }
+
             if (IsAllReady)
             {
                 if (Params.TryGet<VarObject>(LevelEntity.P_LevelReadyCallback, out var callback))
@@ -94,6 +123,7 @@ public class LevelEntity : EntityBase
             {
                 break;
             }
+
             int eId = enemyList[0];
             GF.Entity.HideEntitySafe(eId);
             enemyList.RemoveAt(0);
