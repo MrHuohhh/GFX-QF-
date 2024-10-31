@@ -163,8 +163,8 @@
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Sound\PlaySoundFailureEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Resource\EditorResourceComponent.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Download\UnityWebRequestDownloadAgentHelper.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\DataTable\LoadDataTableFailureEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Scene\LoadSceneFailureEventArgs.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\DataTable\LoadDataTableFailureEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Sound\SoundComponent.SoundGroup.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Variable\VarRect.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Sound\PlaySoundSuccessEventArgs.cs" />
@@ -227,11 +227,11 @@
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Variable\VarChar.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\UI\UIStringKey.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Variable\VarTransform.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Utility\Log.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Variable\VarQuaternion.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Debugger\DebuggerComponent.RuntimeMemoryInformationWindow.Sample.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Download\DownloadUpdateEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Variable\VarDecimal.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Utility\Log.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Resource\ResourceApplySuccessEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\Network\NetworkConnectedEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\Scripts\Runtime\UI\OpenUIFormSuccessEventArgs.cs" />
@@ -461,16 +461,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>

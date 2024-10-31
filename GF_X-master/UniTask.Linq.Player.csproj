@@ -47,16 +47,16 @@
   <ItemGroup>
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\TakeLast.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\UnityExtensions\EveryUpdate.cs" />
-    <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Zip.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\AsyncEnumeratorBase.cs" />
+    <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Zip.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Cast.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\ToArray.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\ToDictionary.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Skip.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\SkipUntilCanceled.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Average.cs" />
-    <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Distinct.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\GroupBy.cs" />
+    <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Distinct.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Buffer.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\ToObservable.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\SequenceEqual.cs" />
@@ -93,8 +93,8 @@
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\ToUniTaskAsyncEnumerable.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Take.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\ElementAt.cs" />
-    <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Do.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Select.cs" />
+    <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Do.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\ForEach.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\Sum.cs" />
     <Compile Include="Assets\Plugins\UniTask\Runtime\Linq\AsUniTaskAsyncEnumerable.cs" />
@@ -316,16 +316,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>

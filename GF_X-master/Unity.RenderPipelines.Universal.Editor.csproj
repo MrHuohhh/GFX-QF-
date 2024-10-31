@@ -66,9 +66,9 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\UniversalRenderPipelineMaterialUpgrader.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Converter\InitializeConverterContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\UniversalRenderPipelineAssetEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\ShaderGUI\ShaderGraphLitGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\Converter\UpgradeURP2DAssetsContainer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\GUIFramework\GUIAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\ShaderGUI\ShaderGraphLitGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\Selection\ISelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Overrides\LiftGammaGainEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\CompositeShadowCaster2DEditor.cs" />
@@ -88,8 +88,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\ShaderGraph\AssetCallbacks\CreateFullscreenShaderGraph.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\EditablePath\ISnapping.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\Selection\RectSelector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\EditorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\GUIFramework\DefaultControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\EditorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\Converter\ParametricToFreeformLightUpgrader.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\PixelPerfectCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\EditorTool\GenericScriptablePathInspector.cs" />
@@ -199,9 +199,9 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\EditorTool\GenericScriptablePath.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\Selection\SerializableSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Camera\UniversalRenderPipelineSerializedCamera.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Converter\AnimationClipConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Camera\UniversalRenderPipelineCameraUI.Environment.Skin.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Converter\RenderPipelineConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Converter\AnimationClipConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\GUIFramework\GenericControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Converter\RenderPipelineConverterContainer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\AssetPostProcessors\SketchupMaterialDescriptionPostprocessor.cs" />
@@ -244,8 +244,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\EditablePath\MultipleEditablePathController.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\SavedParameter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShaderGraph\Targets\UniversalSpriteLitSubTarget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\View\Drawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\Converter\BuiltInToURP2DConverterContainer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\View\Drawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\View\IEditablePathView.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\AssetPostProcessors\FBXMaterialDescriptionPreprocessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Overrides\FilmGrainEditor.cs" />
@@ -258,8 +258,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Overrides\BloomEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShapeEditor\GUIFramework\ClickAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShadowCaster2DEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\ShaderGUI\BaseShaderGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\Deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\ShaderGUI\BaseShaderGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\2D\ShaderGraph\AssetCallbacks\CreateSpriteCustomLitShaderGraph.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\GlobalSettings\UniversalRenderPipelineGlobalSettingsUI.Skin.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\Editor\RendererFeatures\RenderObjectsPassFeatureEditor.cs" />
@@ -595,70 +595,70 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Json">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\System.Text.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IO.RecyclableMemoryStream">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encodings.Web">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\System.Text.Encodings.Web.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
     <Reference Include="dnlib">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.code-philosophy.hybridclr@64a6d26fa3\Plugins\dnlib.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.code-philosophy.hybridclr@64a6d26fa3\Plugins\dnlib.dll</HintPath>
     </Reference>
     <Reference Include="LZ4">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.code-philosophy.hybridclr@64a6d26fa3\Plugins\LZ4.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.code-philosophy.hybridclr@64a6d26fa3\Plugins\LZ4.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Tinify">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\Tinify.dll</HintPath>
-    </Reference>
-    <Reference Include="EPPlus.Interfaces">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.Interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="EPPlus.System.Drawing">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.System.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="SixLabors.ImageSharp">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\SixLabors.ImageSharp.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\Tinify.dll</HintPath>
     </Reference>
     <Reference Include="Markdig">
-      <HintPath>D:\music\GF_X-master\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\EPPlus.6.2\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp">
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ForEditor\CompressImageLibs\SixLabors.ImageSharp.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>

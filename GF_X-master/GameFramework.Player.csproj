@@ -106,8 +106,8 @@
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\UI\IUIFormHelper.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Base\GameFrameworkEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Procedure\ProcedureBase.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Base\Version\Version.IVersionHelper.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Base\EventPool\EventPool.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Base\Version\Version.IVersionHelper.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceManager.ResourceInfo.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Network\IPacketHeader.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Sound\ISoundAgentHelper.cs" />
@@ -123,8 +123,8 @@
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceManager.ResourceLoader.LoadSceneTask.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Fsm\IFsm.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Utility\Utility.Json.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Entity\EntityManager.ShowEntityInfo.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\LocalVersionList.FileSystem.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Entity\EntityManager.ShowEntityInfo.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\UpdatableVersionList.ResourceGroup.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ApplyResourcesCompleteCallback.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\LoadResourceAgentHelperReadFileCompleteEventArgs.cs" />
@@ -164,8 +164,8 @@
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Config\ConfigManager.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Base\DataProvider\ReadDataSuccessEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\WebRequest\IWebRequestManager.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceVerifyStartEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Entity\IEntityGroup.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceVerifyStartEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\LoadResourceAgentHelperReadBytesCompleteEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\DataTable\IDataRow.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Base\Log\GameFrameworkLogLevel.cs" />
@@ -197,12 +197,12 @@
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Base\DataProvider\ReadDataFailureEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Network\NetworkMissHeartBeatEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Network\NetworkErrorEventArgs.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Download\DownloadManager.DownloadAgent.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\LoadAssetCallbacks.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceManager.ResourceLoader.ResourceObject.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Utility\Utility.Verifier.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Utility\Utility.Assembly.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ReadOnlyVersionListSerializer.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Download\DownloadManager.DownloadAgent.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\LoadSceneSuccessCallback.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceManager.ResourceIniter.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Sound\SoundManager.SoundAgent.cs" />
@@ -258,12 +258,12 @@
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\VerifyResourcesCompleteCallback.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Download\DownloadUpdateEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceUpdateFailureEventArgs.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\UpdateResourcesCompleteCallback.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\UI\IUIManager.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\UpdateResourcesCompleteCallback.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceManager.ResourceChecker.CheckInfo.RemoteVersionInfo.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Config\IConfigHelper.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\DataNode\IDataNode.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\DataTable\DataTableManager.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\DataNode\IDataNode.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceManager.ResourceName.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Base\DataProvider\ReadDataDependencyAssetEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Scene\LoadSceneSuccessEventArgs.cs" />
@@ -319,8 +319,8 @@
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Config\IConfigManager.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceManager.ResourceLoader.LoadAssetTask.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Debugger\DebuggerManager.DebuggerWindowGroup.cs" />
-    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Entity\ShowEntityFailureEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Resource\ResourceManager.ResourceLoader.LoadBinaryInfo.cs" />
+    <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Entity\ShowEntityFailureEventArgs.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Entity\EntityManager.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\UI\IUIForm.cs" />
     <Compile Include="Assets\Plugins\UnityGameFramework\GameFramework\Download\DownloadAgentHelperUpdateLengthEventArgs.cs" />
@@ -574,16 +574,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\ZString\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\music\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\UnityGameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:\music\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+      <HintPath>D:\GFX-QF-2\GF_X-master\Assets\Plugins\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
