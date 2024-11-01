@@ -12,6 +12,7 @@ public class ChangeSceneProcedure : ProcedureBase
 {
     private bool loadSceneOver = false;
     private string nextScene = string.Empty;
+
     protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
     {
         base.OnEnter(procedureOwner);
@@ -42,7 +43,8 @@ public class ChangeSceneProcedure : ProcedureBase
         GF.Scene.LoadScene(UtilityBuiltin.AssetsPath.GetScenePath(nextScene), this);
     }
 
-    protected override void OnUpdate(IFsm<IProcedureManager> procedureOwner, float elapseSeconds, float realElapseSeconds)
+    protected override void OnUpdate(IFsm<IProcedureManager> procedureOwner, float elapseSeconds,
+        float realElapseSeconds)
     {
         base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
         if (!loadSceneOver)
@@ -57,6 +59,9 @@ public class ChangeSceneProcedure : ProcedureBase
                 ChangeState<MenuProcedure>(procedureOwner);
                 //GF.Sound.PlayBGM("BillieEilishMusic.wav");
                 break;
+            case "FlyBird":
+                ChangeState<FlyGameProcedure>(procedureOwner);
+                break;
         }
     }
 
@@ -67,6 +72,7 @@ public class ChangeSceneProcedure : ProcedureBase
         GF.Event.Unsubscribe(LoadSceneUpdateEventArgs.EventId, OnLoadSceneUpdate);
         base.OnLeave(procedureOwner, isShutdown);
     }
+
     private void OnLoadSceneUpdate(object sender, GameEventArgs e)
     {
         var arg = (LoadSceneUpdateEventArgs)e;
@@ -85,9 +91,11 @@ public class ChangeSceneProcedure : ProcedureBase
         {
             return;
         }
+
         //Log.Info("场景加载成功:{0}", arg.SceneAssetName);
         loadSceneOver = true;
     }
+
     //加载场景资源失败 重启游戏框架
     private void OnLoadSceneFailure(object sender, GameEventArgs e)
     {

@@ -11,7 +11,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{7e9a1347-0910-9c5b-862e-c5048a9d8d19}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
@@ -45,6 +46,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AAAGame\Scripts\Entity\BirdEntity.cs" />
+    <Compile Include="Assets\AAAGame\Scripts\Entity\FlyLevelEntity.cs" />
+    <Compile Include="Assets\AAAGame\Scripts\Procedures\FlyGameProcedure.cs" />
+    <Compile Include="Assets\AAAGame\Scripts\Procedures\FlyStartGameProcedure.cs" />
     <Compile Include="Assets\AAAGame\Scripts\UI\UIVariables\UITestD.Variables.cs" />
     <Compile Include="Assets\AAAGame\Scripts\Extension\VariablePool\VariablePoolComponent.cs" />
     <Compile Include="Assets\AAAGame\Scripts\Procedures\GameOverProcedure.cs" />
